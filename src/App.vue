@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Nav from "./components/Nav.vue";
+import Header from "./components/Header.vue";
 
 const isMetricDropdownOpen = ref(false);
 </script>
@@ -13,6 +14,7 @@ const isMetricDropdownOpen = ref(false);
 	></div>
 	<div class="">
 		<Nav isMetricDropdownOpen="isMetricDropdownOpen"/>
+        <Header/>
 	</div>
 </template>
 
